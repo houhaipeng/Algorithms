@@ -36,7 +36,8 @@ public class Chap07 {
     }
 
     TreeNode recur(int root, int left, int right) {
-        //
+        //前序遍历7 3 2 5 9 1 10
+        //后序遍历2 3 5 7 1 9 10
         if (left > right) return null;
         TreeNode node = new TreeNode(preorder[root]);
         int i = dic.get(preorder[root]);
