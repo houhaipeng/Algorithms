@@ -11,4 +11,11 @@ public class TestJava {
         String str2 = " ";
         System.out.println(str.contains(str2));
     }
+
+    @Test
+    public void testFor() {
+        for (int i = 0; i < 10; ++i) {
+            System.out.println(i);
+        }
+    }
 }
