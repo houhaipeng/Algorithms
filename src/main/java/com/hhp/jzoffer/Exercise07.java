@@ -17,7 +17,7 @@ import java.util.Map;
  * 限制：
  * 0 <= 节点个数 <= 5000
  */
-public class Chap07 {
+public class Exercise07 {
     public class TreeNode {
       int val;
       TreeNode left;
