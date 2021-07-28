@@ -1,4 +1,4 @@
-package com.hhp.jzoffer;
+package com.hhp.offer;
 
 import java.util.HashSet;
 import java.util.LinkedList;
